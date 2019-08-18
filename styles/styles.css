@@ -1,0 +1,115 @@
+html {
+    scroll-behavior: smooth;
+  }  
+*{
+    margin: 0px;
+    padding: 0px;
+}
+section .container h3{
+    padding: 15px 0px;
+    text-align: center;
+}
+section .container h4{
+    text-shadow: 0px 0px 5px black;
+    color:whitesmoke;
+    margin:14px 0px;
+}
+.header{
+    height: auto;
+    overflow: hidden;
+    text-align: center;
+    background: whitesmoke;
+}
+.header .navbar{
+    transition:background 1s linear;
+}
+.header .navbar .container .navbar-brand:hover{
+    cursor: default;
+    color:white;
+}
+.header .container #carouselExampleIndicators{
+    overflow: hidden;
+    height: 500px;
+    border: 1px solid black;
+}
+.header .container .carousel .carousel-inner{
+    height: 100%;
+}
+.header .container .carousel .carousel-inner .carousel-item{
+    height: 100%;
+} 
+.header .container .carousel .carousel-inner .carousel-item p{
+    font-weight: lighter;
+    font-family: arial;
+} 
+.header .container .carousel .carousel-inner .carousel-item .black-layer{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(10,10,10,.50);
+}
+.header .container .carousel .carousel-inner .carousel-item img{
+    height: 100%;
+}
+.header .navbar .container a{
+    color: whitesmoke;
+}
+.body{
+    height: auto;
+    overflow:hidden;    
+    background: white;
+}
+.body .container p{
+    margin: 0px;
+}
+.body .container .card img{
+    height: 200px;
+}
+.body .container .card p{
+    font-family:arial;
+}
+.about{
+    height: 100vh;
+    overflow:hidden;
+    background: whitesmoke;
+}
+.about .container .media img{
+    width:150px;
+    height: 150px;
+    border-radius:5px;
+    border:1px solid black;
+}
+.about .container .media .icon{
+    width: 50px;
+    height: 50px;
+    border: none;
+}
+.about .container .media p,a{
+    font-family: Arial, Helvetica, sans-serif;
+}
+a:hover{
+    cursor:pointer;
+}
+.about .container .media .red-layer{
+    position: absolute;
+    background: rgba(10, 50, 150, .3);
+    width: 150px;
+    height: 150px;
+}
+.about .container .blue-span{
+    color: rgba(10, 50, 150, 1);
+}
+.contact{
+    height: auto;
+    background: black;
+    padding-bottom: 10px;
+    color: whitesmoke;
+}
+.footer{
+    height: 50px;
+    color:whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
